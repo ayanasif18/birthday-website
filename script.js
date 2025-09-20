@@ -75,6 +75,16 @@ const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 let currentIndex = 0;
 
+// Ribbon click-to-reveal
+const imageWrappers = document.querySelectorAll('.image-wrapper');
+imageWrappers.forEach(wrapper => {
+  const ribbon = wrapper.querySelector('.ribbon');
+  ribbon.addEventListener('click', () => {
+    wrapper.classList.add('revealed');
+  });
+});
+
+
 function openLightbox(idx){
   currentIndex = idx;
   lightboxImg.src = galleryImgs[currentIndex].src;
