@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Memories Premium — Purple Edition
 
 This is an upgraded Memories/Happy Birthday website template with:
@@ -16,3 +17,6 @@ This is an upgraded Memories/Happy Birthday website template with:
 4. Open `index.html` locally or host on GitHub Pages/Netlify/Vercel.
 
 Enjoy — if you want, send the photos and the MP3 and I'll rebuild the ZIP with them included.
+=======
+# birthday-website
+>>>>>>> 4989d582aae5e325c84b5e23677592e319f18124
