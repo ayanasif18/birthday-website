@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Birthday MAHEEN 💜</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="hearts"></div>
+
+  <header class="hero">
+    <h1 class="typewriter">Happy Birthday <span id="her-name">MAHEEN</span> 💜</h1>
+    <p class="subtitle">A collection of our favorite moments — just for you.</p>
+    <!-- <div class="music-controls"> -->
+      <!-- <button id="musicToggle" class="btn">Play Music ▶️</button> -->
+      <!-- <button id="muteBtn" class="btn muted">Mute 🔈</button> -->
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="gallery" class="card reveal">
+      <h2>🎞️ Memories</h2>
+      <div class="gallery-grid" id="galleryGrid">
+        <img src="assets\m1.jpg" alt="Memory 1" data-index="0">
+        <img src="assets\m2 .jpg" alt="Memory 2" data-index="1">
+        <img src="assets\m3.jpg" alt="Memory 3" data-index="2">
+        <img src="assets\m4 .jpg" alt="Memory 4" data-index="3">
+        <img src="assets\m5.jpg" alt="Memory 5" data-index="4">
+        <img src="assets\m6.jpg" alt="Memory 6" data-index="5">
+        <img src="assets\m7.jpg" alt="Memory 7" data-index="6">
+        <img src="assets\m8.jpg" alt="Memory 8" data-index="7">
+        <img src="assets\m11.jpg" alt="Memory 1" data-index="0">
+        <img src="assets\m9.jpg" alt="Memory 1" data-index="0">
+        <!-- <img src="assets\m1.jpg" alt="Memory 1" data-index="0"> -->
+
+
+      </div>
+    </section>
+
+    <section id="notes" class="card reveal">
+      <h2>📜 Love Notes</h2>
+      <div class="notes-grid">
+        <div class="note">You make every day brighter. I love you more than words can say.</div>
+        <div class="note">Thanks for all the laughter, late night talks and little adventures.</div>
+        <div class="note">Every moment with you is my favorite memory.</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox / Slideshow -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="nav prev" id="prevBtn" aria-label="Previous">&#10094;</button>
+    <img id="lightboxImg" src="" alt="expanded">
+    <button class="nav next" id="nextBtn" aria-label="Next">&#10095;</button>
+    <button class="close" id="closeLightbox" aria-label="Close">&times;</button>
+  </div>
+
+  <footer class="footer reveal">
+    <small class="glow">Made with ❤️ only for you.</small>
+  </footer>
+<!-- 
+  Background music (replace assets/music.mp3 with your MP3)
+  <audio id="bgMusic" src="assets/music.mp3" loop></audio> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
